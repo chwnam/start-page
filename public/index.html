@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="startPageApp">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Start Page</title>
+  <style>
+    body {
+      font-family: 'Jeju Gothic', serif !important;
+      /*
+      background image from: http://www.nationalgeographic.com/photography/photo-of-the-day/2016/11/winter-lake-romania/
+      NOVEMBER 5, 2016
+      REFLECTIONS OF WINTER
+      */
+      background-image: url('background-02.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+
+      /* hide top menu padding */
+      /* padding-top: 50px; */
+    }
+
+    div.panel {
+      opacity: 0.75;
+    }
+
+    div.panel-heading h4 {
+      opacity: 1.0;
+    }
+
+    div.panel-body a {
+      opacity: 1.0;
+    }
+  </style>
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="/bower_components/html5shiv/dist/html5shiv.min.js"></script>
+  <script src="/bower_components/respond/dest/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<!-- top menu: now removed -->
+<!-- <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Start Page</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav> -->
+<div class="container" ng-controller="StartPageCtrl">
+  <div class="page-header">
+    <h1>Start Page
+      <small>내 시작 페이지</small>
+    </h1>
+  </div>
+  <div class="row" ng-repeat="row in content.rows">
+    <div class="col-md-6" ng-repeat="col in row.cols">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4>
+            {{ col.title }}
+          </h4>
+        </div> <!-- panel-heading -->
+        <div class="panel-body">
+          <ul class="list-unstyled">
+            <li ng-repeat="item in col.items">
+              <a href="{{ item.url }}" target="_blank" ng-if="!item.subdomains.length">
+                {{ item.name }}
+              </a>
+              <ul class="list-inline" ng-if="item.subdomains.length > 0">
+                <li ng-repeat="subdomain in item.subdomains">
+                  <a href="{{ subdomain.url }}" target="_blank">
+                    {{ subdomain.name }}
+                  </a>
+                  |
+                </li>
+                <li>
+                  <a href="{{ item.url }}" target="_blank">
+                    {{ item.name }}
+                  </a>
+                </li>
+              </ul>      <!-- list-inline -->
+            </li>
+          </ul>          <!-- list-unstyled -->
+        </div>           <!-- panel-body -->
+      </div>             <!-- panel -->
+    </div>               <!-- col -->
+  </div>                 <!-- row -->
+</div>                   <!-- container -->
+<script src="/bower_components/angular/angular.min.js"></script>
+<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="startpage.js"></script>
+</body>
+</html>

@@ -1,0 +1,275 @@
+{
+  "rows": [
+    {
+      "cols": [
+        {
+          "title": "My blogs, homepages, etc...",
+          "items": [
+            {
+              "name": "Outlook",
+              "url": "https://outlook.live.com/owa/"
+            },
+            {
+              "name": "Gmail",
+              "url": "http://www.gmail.com/"
+            },
+            {
+              "name": "Calendar",
+              "url": "https://www.google.com/calendar/"
+            },
+            {
+              "name": "Google Keep",
+              "url": "https://keep.google.com/"
+            },
+            {
+              "name": "Google Console",
+              "url": "https://cloud.google.com/console/project",
+              "subdomains": [
+                {
+                  "name": "Github - lifemotif-desktop",
+                  "url": "https://github.com/chwnam/lifemotif-django"
+                }
+              ]
+            },
+            {
+              "url": "https://sites.google.com/",
+              "name": "Google 사이트 도구",
+              "subdomains": [
+                {
+                  "url": "http://sites.google.com/site/nambaxa/",
+                  "name": "Nambaxa Google Site"
+                }
+              ]
+            },
+            {
+              "url": "http://www.facebook.com/",
+              "name": "Facebook"
+            },
+            {
+              "url": "http://chwnam.iptime.org:65000/login/login.cgi",
+              "name": "공유기 관리페이지(외부)"
+            },
+            {
+              "url": "http://192.168.10.1/login/login.cgi",
+              "name": "공유기 관리페이지(내부)"
+            },
+            {
+              "url": "https://dl.dropboxusercontent.com/u/14350396/predix-map.html",
+              "name": "Predix Map"
+            }
+          ]
+        },
+        {
+          "title": "Favorites",
+          "items": [
+            {
+              "name": "클리앙",
+              "url": "http://clien.net/"
+            },
+            {
+              "url": "http://www.todayhumor.co.kr/",
+              "name": "오늘의 유머",
+              "subdomains": [
+                {
+                  "url": "http://m.todayhumor.co.kr/",
+                  "name": "모바일"
+                }
+              ]
+            },
+            {
+              "url": "http://ruliweb.daum.net/",
+              "name": "루리웹"
+            },
+            {
+              "url": "http://noda.me/pyserv.py?mode=article",
+              "name": "noda.me"
+            },
+            {
+              "url": "http://trenday.net/main/all",
+              "name": "트렌디"
+            },
+            {
+              "url": "http://www.daum.net/",
+              "name": "Daum",
+              "subdomains": [
+                {
+                  "url": "http://cartoon.media.daum.net/webtoon/",
+                  "name": "만화속세상"
+                }
+              ]
+            },
+            {
+              "url": "http://www.naver.com/",
+              "name": "Naver",
+              "subdomains": [
+                {
+                  "url": "http://comic.naver.com/webtoon/weekday.nhn",
+                  "name": "웹툰"
+                }
+              ]
+            },
+            {
+              "url": "http://onnada.com/",
+              "name": "온나다",
+              "subdomains": [
+                {
+                  "url": "http://anime.onnada.com/",
+                  "name": "애니"
+                }
+              ]
+            },
+            {
+              "url": "http://kyobobook.co.kr",
+              "name": "교보문고"
+            },
+            {
+              "url": "http://meetup.com",
+              "name": "meet-up"
+            },
+            {
+              "url": "http://trello.com",
+              "name": "trello"
+            },
+            {
+              "url": "http://marumaru.in",
+              "name": "Comics",
+              "subdomains": [
+                {
+                  "url": "http://marumaru.in/c/26",
+                  "name": "Updates"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cols": [
+        {
+          "title": "MiniServer",
+          "items": [
+            {
+              "url": "http://stream.changwoo.pe.kr/",
+              "name": "Ampache Streaming"
+            },
+            {
+              "url": "http://blog.changwoo.pe.kr/",
+              "name": "My Wordpress Blog"
+            },
+            {
+              "url": "http://anime.changwoo.pe.kr/",
+              "name": "My Anime Blog"
+            },
+            {
+              "url": "http://wiki.changwoo.pe.kr/",
+              "name": "ChangwooWiki"
+            },
+            {
+              "url": "http://changwoo.pe.kr/radio",
+              "name": "Radio"
+            },
+
+            {
+              "url": "http://apps.changwoo.pe.kr",
+              "name": "Miniserver Apps",
+              "subdomains": [
+                {
+                  "url": "http://apps.changwoo.pe.kr/subrenamer",
+                  "name": "pySubRenamer Web GUI"
+                },
+                {
+                  "url": "http://apps.changwoo.pe.kr/goguma",
+                  "name": "Goguma Project"
+                },
+                {
+                  "url": "http://apps.changwoo.pe.kr/lifemotif",
+                  "name": "LifeMotif"
+
+                }
+              ]
+            },
+            {
+              "url": "http://changwoo.pe.kr:8112/",
+              "name": "uTorrent Web Interface"
+            },
+            {
+              "url": "http://comics.changwoo.pe.kr",
+              "name": "Ebina Project"
+            }
+          ]
+        },
+        {
+          "title": "Videos",
+          "items": [
+            {
+              "url": "http://www.tosarang2.net/",
+              "name": "tosarang.net",
+              "subdomains": [
+                {
+                  "url": "https://www.tosarang2.net/bbs/board.php?bo_table=torrent_book",
+                  "name": "도서/만화"
+                },
+                {
+                  "url": "https://www.tosarang2.net/bbs/board.php?bo_table=torrent_kortv_ent",
+                  "name": "예능/오락"
+                },
+                {
+                  "url": "https://www.tosarang.net/bbs/board.php?bo_table=torrent_music_kor",
+                  "name": "음악/한국음악"
+                }
+              ]
+            },
+            {
+              "url": "http://www.nyaa.se/",
+              "name": "Nyaa Torrents",
+              "subdomains": [
+                {
+                  "url": "http://www.nyaa.se/?page=search&amp;cats=1_11&amp;filter=0&amp;term=[Ohys-Raws]",
+                  "name": "Ohys-Raws"
+                },
+                {
+                  "url": "http://www.nyaa.se/?page=search&amp;cats=1_11&amp;filter=0&amp;term=[Leopard-Raws]",
+                  "name": "Leopard-Raws"
+                },
+                {
+                  "url": "http://www.nyaa.se/?page=search&amp;cats=1_11&amp;filter=0&amp;term=",
+                  "name": "Anime Raws"
+                }
+              ]
+            },
+            {
+              "url": "http://www.anissia.net/anitime/",
+              "name": "실시간 애니메이션 편성표"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cols": [
+        {
+          "title": "Cloud Storages",
+          "items": [
+            {
+              "url": "http://www.dropbox.com/",
+              "name": "Dropbox"
+            },
+            {
+              "url": "http://onedrive.live.com/",
+              "name": "OneDrive"
+            },
+            {
+              "url": "https://drive.google.com/",
+              "name": "Google Drive"
+            },
+            {
+              "url": "https://cloud.changwoo.pe.kr/",
+              "name": "OwnCloud"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

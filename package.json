@@ -1,0 +1,23 @@
+{
+  "name": "start-page",
+  "version": "1.0.0",
+  "description": "Changwoo's start page",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chwnam/start-page.git"
+  },
+  "author": "changwoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chwnam/start-page/issues"
+  },
+  "homepage": "https://github.com/chwnam/start-page#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "start-page",
+  "description": "Changwoo's start page",
+  "main": "index.html",
+  "authors": [
+    "changwoo"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/chwnam/start-page",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.1",
+    "bootstrap": "^3.3.7",
+    "html5shiv": "^3.7.3",
+    "respond": "^1.4.2"
+  }
+}
