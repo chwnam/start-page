@@ -18,6 +18,11 @@
   "homepage": "https://github.com/chwnam/start-page#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-connect": "^5.0.0"
+    "gulp-connect": "^5.0.0",
+    "gulp-filter": "^4.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-minify-inline": "^0.2.1",
+    "gulp-uglify": "^2.0.0",
+    "main-bower-files": "^2.13.1"
   }
 }
