@@ -51,7 +51,9 @@ gulp
   })
   .task('copy', function() {
       gulp.src('src/*.json')
-        .pipe(gulp.dest(dest))
+        .pipe(gulp.dest(dest));
+      gulp.src('src/assets/img/*')
+        .pipe(gulp.dest(dest+'assets/img'));
   })
   .task('watch', function() {
     gulp.watch('src/*.html', ['minify']);
